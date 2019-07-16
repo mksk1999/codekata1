@@ -8,8 +8,8 @@ def uniq(input):
         for j in range(k,s):
             if((input[x] == input[j]) and input[x] not in output):
                 output.append(input[x])
-            else:
-                print("unique")
+    else:
+        print("unique")
     for i in output:
         print(i,end=" ")
 if(len(a)==n):
